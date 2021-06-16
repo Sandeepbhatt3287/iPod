@@ -10,7 +10,7 @@ const Ipod = (props) =>{
 
         {/*  starting inner screen */}
               <div className="inner-player">
-                <img style ={StyleSheet.image} src="" alt="inner screen"/>
+                <img style ={styles.image} src="" alt="inner screen"/>
               </div>
         {/* endding inner screen */}
           
@@ -29,7 +29,7 @@ const styles ={
     height : 110,
     width:110,
     borderRadius:4,
-    background: 'blue'
+    background: 'aqua'
   }
 }
 
