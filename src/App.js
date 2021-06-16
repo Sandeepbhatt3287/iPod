@@ -1,16 +1,24 @@
 import './index.css';
+import React from 'react';
+import Ipod from './ipod';
 
-function App() {
+
+class App extends React.Component {
+
+  constructor(){
+    super();
+    this.state ={
+
+      // loading: true   
+    }
+  }
+  render(){
   return (
     <div className="App">
-      <header className="app-header">
-        <p >
-        iPod App
-        </p>
-      </header>
-      
+      {/* {loading && <h1>loading pages ....</h1>} */}
+      <Ipod/>
     </div>
   );
+ }
 }
-
 export default App;
