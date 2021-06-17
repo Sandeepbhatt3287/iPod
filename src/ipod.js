@@ -4,6 +4,7 @@ import React from 'react';
 
 
 const Ipod = (props) =>{
+  
 
   return(
       <div className="ipod">
