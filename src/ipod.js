@@ -7,6 +7,8 @@ const Ipod = (props) =>{
   
 
   return(
+
+    <div>
       <div className="ipod">
 
         {/*  starting inner screen */}
@@ -17,11 +19,26 @@ const Ipod = (props) =>{
           
            {/* starting wheel screen */}
               <div className="wheel">
-              <h1>wheel</h1>
+                  <div className="menu">
+                    <p>menu</p>
+                  </div>
+                  <div className="back">
+                    <p>back</p>
+                  </div>
+                  <div className="select">
+                    <p>select</p>
+                  </div>
+                  <div className="next">
+                    <p>next</p>
+                  </div>
+                  
+                  <div className="play">
+                    <p>play</p>
+                  </div>
               </div>
             {/*endding wheel screen  */}
       </div>
-
+      </div>
   );
 }
         
