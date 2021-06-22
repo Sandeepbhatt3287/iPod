@@ -23,7 +23,7 @@ background-color:grey;
  flex-direction: column;
  margin: auto;
  position: relative;
- border-radius: 10px;
+ border-radius: 20px;
  /* background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fliveforlivemusic.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fmusicbrain.jpg%3Fresize%3D610%252C390%26ssl%3D1&imgrefurl=https%3A%2F%2Fliveforlivemusic.com%2Ffeatures%2F10-positive-benefits-of-listening-to-music-according-to-science%2F&tbnid=ogWmZIXv1oRWCM&vet=12ahUKEwjtpvCFnZ7xAhXJH3IKHf3LBRkQMygKegUIARDrAQ..i&docid=bzI8t1sXIvMrYM&w=610&h=390&q=music%20images&client=firefox-b-d&ved=2ahUKEwjtpvCFnZ7xAhXJH3IKHf3LBRkQMygKegUIARDrAQ"); */
 
 }
@@ -37,11 +37,12 @@ background-color:grey;
   padding: 3%;
   background-color: aliceblue;
   display: flex;
+  border-radius: 20px;
 }
 
 .wheel
 {
-  width:50%;
+  width:55%;
   height: 60vh;
   margin: 3%;
   margin-left: 20%;
@@ -57,7 +58,7 @@ background-color:grey;
   /* display: flex; */
   position: absolute;
   margin:0;
-  left: 35%;
+  left: 39%;
   
 }
 
@@ -65,8 +66,8 @@ background-color:grey;
   /* display: inline; */
   margin:0;  
   position: absolute;
-  bottom: 35%;
-  left: 5%;
+  bottom: 45%;
+  left: 10%;
 
 }
 
@@ -74,27 +75,27 @@ background-color:grey;
   /* display: inline; */
   margin:0;  
   position: absolute;
-  right: 5%;
-  bottom: 35%;
+  right: 10%;
+  bottom: 45%;
 
 }
 
 .select{
   width: 40%;
-  height: 10vh;
+  height: 12vh;
   display: inline-block;
   background-color: aliceblue;
   border-radius: 50%;
   /* margin-left: 10%; */
   position: absolute;
   left: 30%;
-  bottom: 35%;
+  bottom: 30%;
 }
 
 .play{
   /* display: flex; */
   margin:0;
   position: absolute;
-  bottom: 5%;
-  left: 35%;
+  bottom: 10%;
+  left: 48%;
 }
