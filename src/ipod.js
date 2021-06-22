@@ -1,7 +1,11 @@
 
 import React from 'react';
 
+// import './fontawesome';
 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import {FaForward,FaBackward,FaPlay} from 'react-icons/fa';
 
 const Ipod = (props) =>{
   
@@ -20,20 +24,20 @@ const Ipod = (props) =>{
            {/* starting wheel screen */}
               <div className="wheel">
                   <div className="menu">
-                    <p>menu</p>
+                    <p>Menu</p>
                   </div>
                   <div className="back">
-                    <p>back</p>
+                     <FaBackward/>
                   </div>
                   <div className="select">
                     {/* <p>select</p> */}
                   </div>
                   <div className="next">
-                  <i class="fas fa-fast-forward"></i>
+                     <FaForward/>
                   </div>
                   
                   <div className="play">
-                    <p>play</p>
+                  <FaPlay/>
                   </div>
               </div>
             {/*endding wheel screen  */}
