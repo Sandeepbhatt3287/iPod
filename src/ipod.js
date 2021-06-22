@@ -26,10 +26,10 @@ const Ipod = (props) =>{
                     <p>back</p>
                   </div>
                   <div className="select">
-                    <p>select</p>
+                    {/* <p>select</p> */}
                   </div>
                   <div className="next">
-                    <p>next</p>
+                  <i class="fas fa-fast-forward"></i>
                   </div>
                   
                   <div className="play">

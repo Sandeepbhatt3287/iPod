@@ -5,7 +5,7 @@ body {
     sans-serif;
     width: 100%;
     height: 100%;
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fliveforlivemusic.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fmusicbrain.jpg%3Fresize%3D610%252C390%26ssl%3D1&imgrefurl=https%3A%2F%2Fliveforlivemusic.com%2Ffeatures%2F10-positive-benefits-of-listening-to-music-according-to-science%2F&tbnid=ogWmZIXv1oRWCM&vet=12ahUKEwjtpvCFnZ7xAhXJH3IKHf3LBRkQMygKegUIARDrAQ..i&docid=bzI8t1sXIvMrYM&w=610&h=390&q=music%20images&client=firefox-b-d&ved=2ahUKEwjtpvCFnZ7xAhXJH3IKHf3LBRkQMygKegUIARDrAQ");
+    /* background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fliveforlivemusic.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fmusicbrain.jpg%3Fresize%3D610%252C390%26ssl%3D1&imgrefurl=https%3A%2F%2Fliveforlivemusic.com%2Ffeatures%2F10-positive-benefits-of-listening-to-music-according-to-science%2F&tbnid=ogWmZIXv1oRWCM&vet=12ahUKEwjtpvCFnZ7xAhXJH3IKHf3LBRkQMygKegUIARDrAQ..i&docid=bzI8t1sXIvMrYM&w=610&h=390&q=music%20images&client=firefox-b-d&ved=2ahUKEwjtpvCFnZ7xAhXJH3IKHf3LBRkQMygKegUIARDrAQ"); */
   /* position: relative; */
 }
 
@@ -41,13 +41,13 @@ background-color:grey;
 
 .wheel
 {
-  width:45%;
-  height: 65vh;
+  width:50%;
+  height: 60vh;
   margin: 3%;
-  margin-left: 25%;
+  margin-left: 20%;
   padding: 3%;
   border-radius: 50%;
-  background-color: blue;
+  background-color:rgb(182, 181, 181);
    display: flex;
    flex-direction: column;
    position: relative;
@@ -80,14 +80,14 @@ background-color:grey;
 }
 
 .select{
-  width: 30%;
+  width: 40%;
   height: 10vh;
   display: inline-block;
   background-color: aliceblue;
   border-radius: 50%;
   /* margin-left: 10%; */
   position: absolute;
-  left: 35%;
+  left: 30%;
   bottom: 35%;
 }
 
