@@ -1,11 +1,10 @@
 
 import React from 'react';
 
-import {FaForward,FaBackward,FaPlay} from 'react-icons/fa';
+import {FaForward,FaBackward,FaPlay,FaPause} from 'react-icons/fa';
 
 const Ipod = (props) =>{
   
-
   return(
 
     <div>
@@ -33,7 +32,7 @@ const Ipod = (props) =>{
                   </div>
                   
                   <div className="play">
-                  <FaPlay/>
+                  <FaPlay/><FaPause/>
                   </div>
               </div>
             {/*endding wheel screen  */}
