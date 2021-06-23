@@ -1,10 +1,6 @@
 
 import React from 'react';
 
-// import './fontawesome';
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import {FaForward,FaBackward,FaPlay} from 'react-icons/fa';
 
 const Ipod = (props) =>{
