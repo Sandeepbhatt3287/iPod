@@ -3,6 +3,7 @@ import React from 'react';
 
 import Screen from './Screen';
 import ZingTouch from 'zingtouch';
+
 import {FaForward,FaBackward,FaPlay,FaPause} from 'react-icons/fa';
 
 
